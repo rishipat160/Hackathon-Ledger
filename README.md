@@ -18,6 +18,8 @@ Use these credentials to explore Ledger with realistic fake data:
 | `user_yuppie` | `pass_good` | High earner, lots of subscriptions |
 | `user_credit_profile_poor` | `pass_good` | Struggling finances, overdrafts |
 
+**Larger List of credentials** [https://plaid.com/docs/sandbox/test-credentials/](https://plaid.com/docs/sandbox/test-credentials/)
+
 **How to use:**
 1. Click "Connect Bank Account"
 2. Select any bank from the list

@@ -341,7 +341,7 @@ export function generateInsights(
 
 export function analyzeFinances(
   transactions: Transaction[],
-  accounts: AccountBase[]
+  _accounts: AccountBase[]
 ): FinancialAnalysis {
   const income = detectIncome(transactions);
   const categories = analyzeCategorySpending(transactions);

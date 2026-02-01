@@ -63,7 +63,6 @@ const currentBalance = income.totalIncome - spendingTotal;
 **Implementation:**
 - Request PFC data: `include_personal_finance_category: true`
 - Centralized mapping in `lib/categories.ts`
-- No fallback to legacy categories (cleaner code, no guessing)
 
 ### 3. Subscription Detection Algorithm
 

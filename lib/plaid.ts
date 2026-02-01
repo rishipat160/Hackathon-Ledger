@@ -32,7 +32,7 @@ const configuration = new Configuration({
 export const plaidClient = new PlaidApi(configuration);
 
 // Helper to mask account numbers for logging (security)
-export function maskAccountNumber(accountNumber: string | undefined): string {
+export function maskAccountNumber(accountNumber: string | null | undefined): string {
   if (!accountNumber) return 'N/A';
   if (accountNumber.length <= 4) return '****';
   return '****' + accountNumber.slice(-4);

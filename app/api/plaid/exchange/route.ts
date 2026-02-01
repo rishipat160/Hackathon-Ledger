@@ -49,7 +49,7 @@ export async function POST(request: Request) {
     // Support multiple bank accounts
     const session = await getSession();
     
-    if (!session.plaidAccessTokens) {
+    if (!session.plaidAccessTokens || !session.plaidItemIds) {
       session.plaidAccessTokens = [];
       session.plaidItemIds = [];
     }

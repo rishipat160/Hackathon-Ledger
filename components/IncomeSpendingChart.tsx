@@ -15,27 +15,6 @@ interface IncomeSpendingChartProps {
   data: ChartData[];
 }
 
-const CATEGORY_COLORS: Record<string, string> = {
-  'Food & Drink': '#00FF88',
-  'Groceries': '#00FF88',
-  'Dining': '#00E5FF',
-  'Entertainment': '#B24BF3',
-  'Shopping': '#FFD93D',
-  'Transportation': '#FF4757',
-  'Bills & Utilities': '#8E8E93',
-  'Services': '#00E5FF',
-  'Loan Payments': '#B24BF3',
-  'Home & Garden': '#FFD93D',
-  'Government & Non-Profit': '#48484A',
-  'Transfers': '#48484A',
-  'Healthcare': '#8E8E93',
-  'Personal Care': '#48484A',
-  'Fees': '#FF4757',
-  'Travel': '#B24BF3',
-  'Income': '#00FF88',
-  'Other': '#8E8E93',
-};
-
 const CustomTooltip = ({ active, payload }: any) => {
   if (!active || !payload || !payload.length) return null;
   

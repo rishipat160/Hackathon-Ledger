@@ -10,7 +10,11 @@
 
 ### Test Accounts (Plaid Sandbox)
 
+Select a bank with no auth (First Platypus Bank)
+
 Use these credentials to explore Ledger with realistic fake data:
+
+Password can be anything but sometimes it doesn't like a few characters only, so use pass_good to be safe
 
 | Username | Password | Profile |
 |----------|----------|---------|

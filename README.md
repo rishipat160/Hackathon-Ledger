@@ -1,6 +1,6 @@
 # Ledger - AI Financial Coach
 
-> Smart financial insights for students and freelancers. Stop budgeting. Start understanding.
+> Smart financial insights for everyone. Stop budgeting. Start understanding.
 
 ## Try the Demo
 

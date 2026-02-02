@@ -26,7 +26,7 @@ Password can be anything but sometimes it doesn't like a few characters only, so
 
 **How to use:**
 1. Click "Connect Bank Account"
-2. Select any bank from the list
+2. Select (First Platypus Bank) from the list
 3. Enter one of the test usernames and password above
 4. Explore your personalized dashboard!
 
